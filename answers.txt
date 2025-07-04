@@ -18,4 +18,47 @@ git add answers.txt
 git commit -m "Add answers.txt with assessment answers"
 git push origin main
 
+
+
+
+Perform the following tasks on your laptop and provide the answers:
+1. Find and provide your laptop’s private IP address (local IP)         [1 mark]
+ ans: ipconfig
+192.168.151.7
+
+2. Find and provide your laptop’s public IP address (external IP)    	[1 mark]
+ans: ipconfigme
+203.122.18.93
+3. Find and provide your laptop’s MAC (hardware) address. 	[1.5 marks]
+ans:getmac
+00:1A:2B:3C:4D:5E
+
+
+
+
+1.	How can you check if your laptop has internet access? Provide one simple command.    
+Hint : You can try to ping a well-known website 
+		             [1 mark]
+
+ans:ping -c 1 google.com
+If you get a response, your laptop has internet access.
+
+
+
+
+2.	How can you check if a website (ex: www.google.com ) is reachable from your laptop?
+Provide one simple command					               [1 mark]
+Hint: Think of a basic command that shows replies if reachable
+ans:ping www.google.com
+
+3.	Write one command that shows your current network configuration (IP address etc)  
+Hint : Command like ipconfig (Windows) or ifconfig/ip addr (Linux/Mac)  [ 1 mark ]  
+
+ans:ifadd 
+4.	How can you test your public IP using terminal or browser? Mention any one method 
+ans:url ifconfig.me
+
+                                                                                                                          [1 mark]    
+5.	Which command can you use to send continuous pings until you stop it manually											                 [ 1 mark]
+ans:ping google.com
 "
