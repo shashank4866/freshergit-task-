@@ -1,0 +1,21 @@
+"
+a. Create a new private GitHub repository named fresher-git-task [ 1 mark]
+ Repository name: `fresher-git-task`
+Set visibility to **Private
+
+b. Clone the repository to your local machine 			[1 mark]
+git clone https://github.com/shashank4866/fresher-git-task-.git
+cd fresher-git-task
+
+c. Inside the repository, create one file:				[1 mark]
+	answers.txt (add all 3 Question answers)
+	Commit and Push these files to the main branch 
+
+
+touch answers.txt
+# Add answers to answers.txt (see below for content)
+git add answers.txt
+git commit -m "Add answers.txt with assessment answers"
+git push origin main
+
+"
