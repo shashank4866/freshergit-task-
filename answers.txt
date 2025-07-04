@@ -1,4 +1,16 @@
-"
+
+PRACTICAL ASSESSMENT
+Marks : 20
+Duration: 45 minutes
+
+Instructions:
+1.	Create a text file with the name “Git_answers_name” and do post the answers in the file 
+
+
+2.	Push the answers file to the github repository which you are going to create in the Q1.
+
+Q1. Do the following 						[ 10 marks]
+
 a. Create a new private GitHub repository named fresher-git-task [ 1 mark]
  Repository name: `fresher-git-task`
 Set visibility to **Private
@@ -18,4 +30,65 @@ git add answers.txt
 git commit -m "Add answers.txt with assessment answers"
 git push origin main
 
-"
+
+
+
+d. Create a new branch called feature/login-page from main 	[1 mark]
+
+git add login.html
+git commit -m "Add login.html for login page"
+git push origin feature/login-page
+
+e. On the feature/login-page branch, create a file named login.html (add any text 
+    content inside it). Commit and push this branch to GitHub.	[ 2 marks]
+
+f. Open a Pull Request (PR) on GitHub to merge feature/login-page into main.
+	Add a meaningful PR title and description
+	Provide a screenshot of your PR 				[2 marks]
+
+g. Invite another GitHub user (mallikarjuna.hs@tibilsolutions.com) as a collaborator 
+     with Write access to your private repository.
+	Provide a screenshot showing the collaborator added. 	[2 marks]
+
+
+Q2. Network Information Task 					[ 5 marks ]
+Perform the following tasks on your laptop and provide the answers:
+1. Find and provide your laptop’s private IP address (local IP)         [1 mark]
+ ans: ipconfig
+192.168.151.7
+
+2. Find and provide your laptop’s public IP address (external IP)    	[1 mark]
+ans: ipconfigme
+203.122.18.93
+3. Find and provide your laptop’s MAC (hardware) address. 	[1.5 marks]
+ans:getmac
+00:1A:2B:3C:4D:5E
+4. Write the command(s) or tool(s) you used to find this information.  [1.5 marks]
+
+Q3. Internet Connectivity Check 					[ 5 Marks ]
+Answer the following using simple terminal commands:
+1.	How can you check if your laptop has internet access? Provide one simple command.    
+Hint : You can try to ping a well-known website 
+		             [1 mark]
+
+ans:ping -c 1 google.com
+If you get a response, your laptop has internet access.
+
+
+
+
+2.	How can you check if a website (ex: www.google.com ) is reachable from your laptop?
+Provide one simple command					               [1 mark]
+Hint: Think of a basic command that shows replies if reachable
+ans:ping www.google.com
+
+3.	Write one command that shows your current network configuration (IP address etc)  
+Hint : Command like ipconfig (Windows) or ifconfig/ip addr (Linux/Mac)  [ 1 mark ]  
+
+ans:ifadd 
+4.	How can you test your public IP using terminal or browser? Mention any one method 
+ans:url ifconfig.me
+
+                                                                                                                          [1 mark]    
+5.	Which command can you use to send continuous pings until you stop it manually											                 [ 1 mark]
+ans:ping google.com
